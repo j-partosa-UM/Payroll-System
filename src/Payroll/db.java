@@ -20,7 +20,7 @@ public class db {
         try{
             
             Class.forName("org.sqlite.JDBC");
-            Connection conn = DriverManager.getConnection("jdbc:sqlite:D:\\Payroll System\\database.sqlite");
+            Connection conn = DriverManager.getConnection("jdbc:sqlite:database.sqlite");
             
             return conn;
            
